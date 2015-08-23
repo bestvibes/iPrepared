@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="6dip" >
+
+<CheckBox
+    android:id="@+id/taskListCheckBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:text="CheckBox" />
+
+</RelativeLayout>-->
+
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/card_bg">
+
+        <CheckBox
+            android:layout_gravity="left|center_vertical"
+            android:id="@+id/taskListCheckBox"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:textColor="@android:color/primary_text_light"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:paddingBottom="6dp"
+android:background="#63D5FF"
+android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/card_bg_yellow"
+    android:weightSum="100" >
+
+    <ImageView
+        android:id="@+id/stripe"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:adjustViewBounds="true"
+        android:background="@android:color/holo_red_dark"
+        android:baselineAlignBottom="true"
+        android:contentDescription="Color Stripe"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="97"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/taskListCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:text="Title"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

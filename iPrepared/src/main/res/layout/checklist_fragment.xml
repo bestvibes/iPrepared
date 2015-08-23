@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B5EBFF">
+    <!--android:background="#e5e5e5">-->
+
+    <ListView
+        android:id="@+id/checkListView"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10.0sp"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10.0sp"
+        android:background="#B5EBFF"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/emptyExpiries"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:visibility="invisible"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/no_expiries_listview"/>
+
+
+</RelativeLayout>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/checklistProgress"
+        android:visibility="visible"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView android:visibility="invisible" android:id="@+id/checkListView" android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>-->
