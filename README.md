@@ -1,5 +1,5 @@
 #iPrepared
-A simple disaster preparation Android app I made my freshman year of high school for FLL (First Lego League) team Blazing Phoenix, which I was mentoring.
+A simple disaster preparation Android app I made my freshman year of high school in 2013 for FLL (First Lego League) team Blazing Phoenix, which I was mentoring.
 
 ##Features##
 1. Percent of how prepared you are for a natural disaster based on your checklists
